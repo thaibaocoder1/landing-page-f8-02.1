@@ -29,19 +29,19 @@
           </a>
           <nav class="menu__list">
             <li class="menu__item">
-              <a href="#!" class="menu__link active">Home</a>
+              <a href="#" class="menu__link active">Home</a>
             </li>
             <li class="menu__item">
-              <a href="#!" class="menu__link">Features</a>
+              <a href="#features" class="menu__link">Features</a>
             </li>
             <li class="menu__item">
-              <a href="#!" class="menu__link">Pricing</a>
+              <a href="#courses" class="menu__link">Pricing</a>
             </li>
             <li class="menu__item">
-              <a href="#!" class="menu__link">About</a>
+              <a href="#contact" class="menu__link">About</a>
             </li>
             <li class="menu__item">
-              <a href="#!" class="menu__link">Contact</a>
+              <a href="#footer" class="menu__link">Contact</a>
             </li>
           </nav>
           <div class="menu__btn">
@@ -96,6 +96,7 @@
                 <div class="card-schedule__bar"></div>
                 <div class="card-schedule__bar"></div>
                 <div class="card-schedule__bar"></div>
+                <div class="card-seperate"></div>
               </div>
               <div class="card card-three">
                 <h4 class="card-author__heading">Our Active Students</h4>
@@ -130,8 +131,8 @@
         </div>
       </section>
       <!-- Features -->
-      <section class="features">
-        <div class="content">
+      <section class="features" id="features">
+        <div class="content content-fix">
           <div class="features-body">
             <div class="features-head">
               <h2 class="features__title">FEATURES</h2>
@@ -184,22 +185,27 @@
         </div>
       </section>
       <!-- Courses -->
-      <section class="courses">
+      <section class="courses" id="courses">
         <div class="content">
           <div class="courses-body">
             <div class="courses-head">
-              <h2 class="courses__title">COURSES</h2>
-              <h3 class="courses__tertiary">Popular Courses</h3>
-              <p class="courses__desc">
-                Check out our most poular courses that suit for you. Here you
-                can find your favourite one.
-              </p>
+              <div class="courses-head__info">
+                <h2 class="courses__title">COURSES</h2>
+                <h3 class="courses__tertiary">Popular Courses</h3>
+              </div>
+              <div class="courses-head__link">
+                <p class="courses__desc">
+                  Check out our most poular courses that suit for you. Here you
+                  can find your favourite one.
+                </p>
+                <a href="#">View All Courses</a>
+              </div>
             </div>
             <div class="courses-list">
               <div class="courses-item">
                 <a href="#!">
                   <img
-                    src="./assets/images/card-3.avif"
+                    src="./assets/images/card_1.avif"
                     alt=""
                     class="courses-img"
                   />
@@ -220,7 +226,7 @@
               <div class="courses-item">
                 <a href="#!">
                   <img
-                    src="./assets/images/card-2.avif"
+                    src="./assets/images/card_2.avif"
                     alt=""
                     class="courses-img"
                   />
@@ -266,8 +272,8 @@
         </div>
       </section>
       <!-- Countdown -->
-      <section class="countdown">
-        <div class="content">
+      <section class="countdown" id="about">
+        <div class="content content-small">
           <div class="countdown-wrapper">
             <ul class="countdown-list">
               <li class="countdown-item">
@@ -287,7 +293,7 @@
         </div>
       </section>
       <!-- Testimonial -->
-      <section class="testimonial">
+      <section class="testimonial" id="contact">
         <div class="content">
           <div class="testimonial-body">
             <div class="testimonial-left">
@@ -344,7 +350,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="content">
         <div class="footer-row">
           <div class="footer-col">
