@@ -17,14 +17,14 @@ body {
 }
 /* Header */
 .content {
-  width: 1170px;
-  max-width: 100%;
+  max-width: 1170px;
+  width: 100%;
   margin: 0 auto;
 }
 .content.content-fix {
-  width: 1024px;
-  max-width: 100%;
-  margin: 0 0 0 17.2rem;
+  max-width: 1024px;
+  width: 100%;
+  margin-left: calc((100vw - 1170px) / 2);
 }
 .content.content-small {
   width: 862px;
@@ -318,8 +318,9 @@ body {
   margin: auto;
 }
 /* Features */
-.features-body {
-  margin-top: 13rem;
+.features {
+  margin-top: 6.5rem;
+  padding: 6.5rem 0;
 }
 .features-head {
   width: 591px;
@@ -368,8 +369,8 @@ body {
   margin: 0 20rem 0 20.9rem;
 }
 /* Courses */
-.courses-body {
-  margin: 13rem 0;
+.courses {
+  padding-top: 6.5rem;
 }
 .courses-head__link {
   display: flex;
@@ -436,6 +437,7 @@ body {
   left: 0;
   transform: translateX(5.5%);
   padding: 1.8rem 0 2.9rem 2.5rem;
+  cursor: pointer;
 }
 .courses-about {
   font-weight: 700;
@@ -496,8 +498,7 @@ body {
 }
 /* Countdown */
 .countdown {
-  padding-top: 26.5rem;
-  margin-bottom: 26.4rem;
+  padding-top: 36rem;
 }
 .countdown-list {
   display: flex;
@@ -522,6 +523,7 @@ body {
 }
 /* Testimonial */
 .testimonial {
+  padding-top: 26.4rem;
   margin-bottom: 13rem;
 }
 .testimonial-body {
@@ -566,7 +568,7 @@ body {
   transform: translateY(-50%);
 }
 .testimonial-cta {
-  display: flex;
+  display: inline-flex;
   gap: 0 3rem;
 }
 .testimonial-box {
@@ -683,6 +685,13 @@ body {
   font-size: 1.6rem;
   padding: 1rem 0;
   color: #535353;
+}
+.footer-col__item:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+.footer-col__link {
+  color: inherit;
 }
 .footer-col__social {
   display: flex;
